@@ -18,4 +18,10 @@ public class TestController : Controller
     {
         return View();
     }
+
+    public IActionResult ClientDetails()
+    {
+        var client = new Client { Name = "Cleyson Lima", Email = "cleyson@mail.com" };
+        return View(client);
+    }
 }
