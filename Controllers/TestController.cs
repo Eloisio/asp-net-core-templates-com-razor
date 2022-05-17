@@ -21,7 +21,13 @@ public class TestController : Controller
 
     public IActionResult ClientDetails()
     {
-        var client = new Client { Name = "Cleyson Lima", Email = "cleyson@mail.com" };
+        var client = new Client
+        {
+            Name = "Cleyson Lima",
+            Email = "cleyson@mail.com",
+            Purchases = 110,
+            Type = 5,
+        };
         return View(client);
     }
 }
