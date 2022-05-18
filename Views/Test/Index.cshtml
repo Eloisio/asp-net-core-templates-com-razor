@@ -4,3 +4,13 @@
 <p>
     Nome da tarefa: @ViewBag.Todo.Title
 </p>
+
+@{
+    var cardData = new CardData
+    {
+        Title = "Título do card",
+        Subtitle = "Subtítulo do card",
+        Content = "Conteúdo do card"
+    };
+}
+<partial name="_Card" model="cardData" />
