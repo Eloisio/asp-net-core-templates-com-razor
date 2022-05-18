@@ -30,4 +30,13 @@ public class TestController : Controller
         };
         return View(client);
     }
+
+    public IActionResult ClientList()
+    {
+        var clients = new List<Client>();
+        clients.Add(new Client { Name = "Cleyson Lima", Email = "cleyson@mail.com", Purchases = 10, Type = 1 });
+        clients.Add(new Client { Name = "Juan Pablo", Email = "jua@mail.com", Purchases = 10, Type = 1 });
+        clients.Add(new Client { Name = "Sara Cristine", Email = "sara@mail.com", Purchases = 10, Type = 1 });
+        return View(clients);
+    }
 }
