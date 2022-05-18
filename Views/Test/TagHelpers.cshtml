@@ -1,0 +1,27 @@
+@model Client
+
+<a
+    asp-controller="Home"
+    asp-action="Privacy"
+    asp-route-clientid="1"
+    asp-route-age="20"
+    asp-fragment="fragment"
+>Link</a>
+
+<a
+    asp-protocol="https"
+    asp-host="dotnet.microsoft.com"
+    asp-controller="apps"
+    asp-action="aspnet"
+>Micros</a>
+
+<form asp-controller="Home" asp-action="Form" method="post">
+    Form
+    <label asp-for="Name">Nome</label>
+    <input type="text" asp-for="Name">
+    <label asp-for="Email">E-mail</label>
+    <input type="text" asp-for="Email">
+    <input type="submit" value="Enviar" asp-controller="Home" asp-action="Formaction">
+</form>
+
+<a asp-route="ClientList">Rota nomeada</a>
