@@ -1,3 +1,7 @@
+@{
+    Layout = "_Layout2";
+}
+
 <partial name="_Header" />
 
 <h1>Olá @ViewBag.Name</h1>
@@ -14,3 +18,10 @@
     };
 }
 <partial name="_Card" model="cardData" />
+
+@* @section Scripts
+{
+    <script>
+        alert("Codigo JS Injetado pela view no template base")
+    </script>
+} *@
