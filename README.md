@@ -1,5 +1,8 @@
 # TreinaWeb: Cruso "ASP.NET Core - Templates com Razor"
 
+## Projeto Base
+[Download do projeto base](https://github.com/treinaweb/treinaweb-asp-net-core-templates-com-razor/archive/5c956bb88a11593a96797a20c5cdaf9a5f014427.zip)
+
 ## Lista de Commits
 | Aula    | Video                                            | Commit                                                   | Link                                                                                                                                     |
 | ------- | ------------------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
